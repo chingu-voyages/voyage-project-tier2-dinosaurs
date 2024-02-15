@@ -1,4 +1,4 @@
-# voyage-project-tier1-dinosaurs
+# voyage-project-tier2-dinosaurs
 
 ## Table of Contents
 
@@ -81,7 +81,6 @@ implement to enhance this app, if time permits.
 - [ ] Useful links and resources:
     - [National History Museum](https://www.nhm.ac.uk/discover/dinosaurs.html)
     - [Dinosaurs API](https://chinguapi.onrender.com/dinosaurs)
-    - [Kaggle News Datasets](https://www.kaggle.com/datasets)
     - [NewsAPI](https://newsapi.org/)
 
 #### Styling
@@ -94,15 +93,15 @@ implement to enhance this app, if time permits.
 #### Functionality
 
 -   Overview:
-    - [ ] A single page application (SPA) or it's equivalent design to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
+    - [ ] A single-page application (SPA) or it's equivalent design to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
 
 - Dinosaur Display
-    - [ ] Display dinosaurs' name, weight, height, country, diet and corresponding images sourced from the provided API data.
+    - [ ] Display dinosaurs' name, weight, length, country, diet and corresponding images sourced from the provided API data.
     - [ ] Each dinosaur entry should be clickable to view full details.
 
 - Search Component
-    - [ ] Implement a search feature allowing users to search for dinosaurs by name, weight, height, country and diet.
-    - [ ] Search results should dynamically filter and sort dinosaurs based on the entered data (name, weight, height, country, diet).
+    - [ ] Implement a search feature allowing users to search for dinosaurs by name, weight, length, country and diet.
+    - [ ] Search results should dynamically filter and sort dinosaurs based on the entered data (name, weight, length, country, diet).
 
 - Diet Chart Visualization
     - [ ] Display two charts (pie chart and doughnut chart) illustrating the distribution of general dinosaur diet and type data.
@@ -123,6 +122,9 @@ implement to enhance this app, if time permits.
         - whenLived
         - typeSpecies
         - description
+        - foundIn 
+        - taxonomy
+        - namedBy
 
 - Responsiveness
     - [ ] Ensure the web application is responsive and accessible across various devices and screen sizes.
@@ -134,8 +136,8 @@ implement to enhance this app, if time permits.
 
 ## Acceptance Criteria
 - Search Functionality
-    - [ ] Users should be able to search for dinosaurs by name, weight, height, country and diet.
-    - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name, weight, height, country and diet.
+    - [ ] Users should be able to search for dinosaurs by name, weight, length, country and diet.
+    - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name, weight, length, country and diet.
     - [ ] Search functionality should be case-insensitive and allow partial matching of dinosaur names.
 
 - Diet Chart Visualization
@@ -150,7 +152,7 @@ implement to enhance this app, if time permits.
 
 ## Acknowledgements
 
-We acknowledge the [National History Museum](https://www.nhm.ac.uk) for providing access to the dataset containing valuable information about dinosaurs. We extend our appreciation to [Kaggle](https://www.kaggle.com) for hosting and curating the dataset used in this project. Kaggle's platform provided a wealth of resources and tools that facilitated the exploration and analysis of the dinosaur data, enriching our development process. Additionally, we thank [NewsAPI](https://www.newsapi.org) for delivering the latest news on dinosaur discoveries, contributing to our ongoing exploration of this fascinating field.
+We acknowledge the [National History Museum](https://www.nhm.ac.uk) for providing access to the dataset containing valuable information about dinosaurs. Additionally, we thank [NewsAPI](https://www.newsapi.org) for delivering the latest news on dinosaur discoveries, contributing to our ongoing exploration of this fascinating field.
 
 ## About Chingu
 
