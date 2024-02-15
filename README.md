@@ -76,13 +76,13 @@ implement to enhance this app, if time permits.
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] We've included a JSON file containing the raw data in the `/assets` directory in this repo. But, 
-if you choose, you may use the [Dinosaurs API](chingu.io) instead.
+- [ ] Utilize the provided Dinosaur's API to display data.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [National History Museum](https://www.nhm.ac.uk/discover/dinosaurs.html)
-    - [Dinosaurs API](chingu.io)
+    - [Dinosaurs API](https://chinguapi.onrender.com/dinosaurs)
     - [Kaggle News Datasets](https://www.kaggle.com/datasets)
+    - [NewsAPI](https://newsapi.org/)
 
 #### Styling
 
@@ -97,20 +97,24 @@ if you choose, you may use the [Dinosaurs API](chingu.io) instead.
     - [ ] A single page application (SPA) or it's equivalent design to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
 
 - Dinosaur Display
-    - [ ] Display dinosaurs' names and corresponding images sourced from the provided JSON file.
+    - [ ] Display dinosaurs' name, weight, height, country, diet and corresponding images sourced from the provided API data.
     - [ ] Each dinosaur entry should be clickable to view full details.
 
 - Search Component
-    - [ ] Implement a search feature allowing users to search for dinosaurs by name.
-    - [ ] Search results should dynamically filter displayed dinosaurs based on the entered name.
+    - [ ] Implement a search feature allowing users to search for dinosaurs by name, weight, height, country and diet.
+    - [ ] Search results should dynamically filter and sort dinosaurs based on the entered data (name, weight, height, country, diet).
 
 - Diet Chart Visualization
-    - [ ] Display a chart (pie chart or doughnut chart) illustrating the distribution of general dinosaur diets (e.g., herbivore, carnivore, omnivore) based on provided JSON data.
+    - [ ] Display two charts (pie chart and doughnut chart) illustrating the distribution of general dinosaur diet and type data.
     - [ ] Ensure the chart is visually appealing and informative, providing a clear overview of diet composition.
+
+- Dinosaur Location Map
+    - [ ] Display the location of a selected dinosaur on a map.
+    - [ ] Upon clicking a dinosaur entry, dynamically fetch and display its geographic location on an interactive map using a mapping API (e.g., Google Maps).
 
 - Dinosaur Details View
     - [ ] Enable users to view full details of a selected dinosaur upon clicking its entry.
-    - [ ] Details should include additional information sourced from the JSON file such as: 
+    - [ ] Details should include additional information sourced from the API data such as: 
         - name
         - imageSrc
         - typeOfDinosaur
@@ -125,30 +129,28 @@ if you choose, you may use the [Dinosaurs API](chingu.io) instead.
     - [ ] Utilize responsive design techniques to adapt to different viewport sizes.
     
 ### Extras (Not Required)
-
-- Dinosaur Location Map
-    - [ ] Provide an optional feature to display the location of a selected dinosaur on a map.
-    - [ ] Upon clicking a dinosaur entry, dynamically fetch and display its geographic location on an interactive map using a mapping API (e.g., Google Maps).
+- Display news about recent dinosaur discovery
+    - [ ] Consume a second API that's related to Dinosaur
 
 ## Acceptance Criteria
 - Search Functionality
-    - [ ] Users should be able to search for dinosaurs by name.
-    - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name.
+    - [ ] Users should be able to search for dinosaurs by name, weight, height, country and diet.
+    - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name, weight, height, country and diet.
     - [ ] Search functionality should be case-insensitive and allow partial matching of dinosaur names.
 
 - Diet Chart Visualization
-    - [ ] The app must display a chart (pie chart or doughnut chart) illustrating the distribution of general dinosaur diets (e.g., herbivore, carnivore, omnivore) based on provided data.
-    - [ ] The chart must accurately represent the proportion of each diet type within the dataset.
+    - [ ] The app must display two charts (pie chart and doughnut chart) illustrating the distribution of general dinosaur diets (e.g., herbivore, carnivore, omnivore) and type based on provided data.
+    - [ ] The charts must accurately represent the proportion of each diet type within the dataset.
     - [ ] Users should be able to easily interpret and interact with the chart to understand diet composition.
 
 - Dinosaur Details View
     - [ ] Upon clicking a dinosaur entry, users must be able to view full details of the selected dinosaur.
-    - [ ] Dinosaur details should include notable characteristics sourced from the JSON file.
+    - [ ] Dinosaur details should include notable characteristics sourced from the API data.
     - [ ] The details view should be accessible and provide comprehensive information about the selected dinosaur.
 
 ## Acknowledgements
 
-We acknowledge the [National History Museum](https://www.nhm.ac.uk) for providing access to the dataset containing valuable information about dinosaurs. We extend our appreciation to [Kaggle](https://www.kaggle.com) for hosting and curating the dataset used in this project. Kaggle's platform provided a wealth of resources and tools that facilitated the exploration and analysis of the dinosaur data, enriching our development process.
+We acknowledge the [National History Museum](https://www.nhm.ac.uk) for providing access to the dataset containing valuable information about dinosaurs. We extend our appreciation to [Kaggle](https://www.kaggle.com) for hosting and curating the dataset used in this project. Kaggle's platform provided a wealth of resources and tools that facilitated the exploration and analysis of the dinosaur data, enriching our development process. Additionally, we thank [NewsAPI](https://www.newsapi.org) for delivering the latest news on dinosaur discoveries, contributing to our ongoing exploration of this fascinating field.
 
 ## About Chingu
 
