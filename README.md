@@ -88,7 +88,7 @@ implement to enhance this app, if time permits.
 - [ ] Surprise us!!! Use your teams creativity to make this app distinctive.
 - [ ] Add a footer containing a link to your teams GitHub repo
 - [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
-- [ ] Recommend using this resource for [clean CSS](https://www.devbridge.com/articles/implementing-clean-css-bem-method/)
+- [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology)
 
 #### Functionality
 
